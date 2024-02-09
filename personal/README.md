@@ -1,64 +1,55 @@
-# Individuele opleveringen
+# Individual deliveries
 
-## Persoonlijk ontwikkelplan
+## Personal development plan
 
-Tijdens deze module werk je aan de opbouw van je professionele
-vaardigheden ontwikkelplan. Dit is een proces dat gedurende het hele
-semester loopt. Het is dus belangrijk dat je er tijdens de duur van het
-semester regelmatig aandacht aan besteed.
+During this module you will work on building your professional skills
+skills development plan. This is a process that lasts throughout
+semester is running. It is therefore important that you pay regular attention to this during the semester.
 
-Het \`professionele vaardigheden ontwikkelplan\` bestaat uit een
-document met daarin de volgende onderdelen:
+## Schedule
 
-+ SMART plan per canvas rubric.
-+ STARR reflecties op de uitvoering van de plannen. Deze voeg je toe nadat je je plan hebt uitgevoerd. Ook bespreek je deze met je semestercoach
+Making a plan can help you with your studies. When planning, consider, for example:
 
-## Planning
++ What is important to do in the short and long term?
++ Are there parts that require special attention?
++ Who can help me and when are these people available?
++ What has been successful in the last planning, and what has not yet been achieved?
++ And very important: how can I make adjustments?
 
-Het maken van een planning kan je helpen bij je studie. Denk bij het plannen bijvoorbeeld aan:
+## Log
 
-+ Wat is er belangrijk dat er op korte- en lange termijn gedaan wordt?
-+ Zijn er onderdelen die bijzonder aandacht nodig hebben?
-+ Wie kan mij helpen en wanneer zijn deze personen beschikbaar?
-+ Wat is er gelukt bij de afgelopen planning, en wat lukte er nog niet?
-+ En erg belangrijk: hoe kan ik bijsturen?
+Logbook in which you provide insight into your contribution to the professional task
+is. You may include references here, for example to others
+documentation or code.
 
-## Logboek
+## Research
 
-Logboek waarin je inzichtelijk maakt wat jouw bijdrage aan de proftaak
-is. Je mag hier verwijzigingen opnemen naar bijvoorbeeld andere
-documentatie of code.
+Research in which you further part of your professional project
+and the choice of the chosen solution for (partial) problems
+explains. The research will be carried out by a maximum of 2 people.
 
-## Onderzoek
-
-Onderzoek waarin je een onderdeel van je proftaak project verder
-uitwerkt en de keuze voor gekozen oplossing voor (deel)problemen
-toelicht. Het onderzoek zal worden uitgevoerd door maximaal 2 personen.
-
-De formatieve indicatie wordt vastgesteld op basis van onderstaande
+The formative indication is determined on the basis of the following
 criteria:
 
--   Probleem omschrijving.      
--   Relevantie van de onderzoeksvragen:
-    -   relevantie van het onderzoeksprobleem (duidelijk beschrijving)
-        voor het hele project (of deel)
-    -   het gebruik (het nut) van de onderzoekresultaat voor de
-        vooruitgang van het hele project (er wordt beschreven op welke
-        manier het onderzoekresultaat voor het proftaak-project gebruikt
-        wordt)
--    Strategieën:
-    -   gebruikte strategieën zijn benoemd
-    -   de gebruikte strategieën worden benoemd en de keuze wordt
-        gemotiveerd
+-   Description of problem.
+- Relevance of the research questions:
+     - relevance of the research problem (clear description)
+         for the entire project (or part)
+     - the use (usefulness) of the research result for the
+         progress of the entire project (it is described on which basis
+         way the research results are used for the proftask project
+         is becoming)
+- Strategies:
+     - strategies used are identified
+     - the strategies used are identified and the choice is made
+         motivated
 
--    Uitwerking:
-    -   welke activiteiten er zijn uitgevoerd om tot een antwoord te
-        komen
-    -   literatuurverwijzing
-    -   beantwoording onderzoeksvragen
-    -   conclusie
+- Elaboration:
+     - what activities have been carried out to arrive at an answer
+         come
+     - literature reference
+     - answering research questions
+     -   conclusion
 
--   Verwerking van de docent feedback:
-    -   de feedback is meegenomen in de verbetering van het rapport.
-
-
+- Processing of teacher feedback:
+     - the feedback has been included in improving the report.
