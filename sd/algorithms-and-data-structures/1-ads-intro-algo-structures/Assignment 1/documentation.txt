@@ -1,0 +1,67 @@
+Into Assignment Algorithms and Data Structures Documentation
+
+By: Simeon Stoilov
+Version: 1.0
+Date: 10.09.2024
+
+Part 1. Assignment 1 (Linear Search)
+
+	For the first part of the assignment we are given an array of numbers in this sequence: 
+First we receive the length of the array - N
+Second we get the values to populate the array - a
+Third input is the repetitions we are looking for - K
+
+	With this array of numbers we need to use a linear search algorithm and find the lowest number that is repeated K number of times in the array. To accomplish this first I implemented a for loop to populate the array.
+	Function Documentation: get_minimum_number_with_k_occurences
+Purpose:
+The function get_minimum_number_with_k_occurences is designed to find the smallest number from an array that occurs exactly K times. This function is useful when you need to identify a specific number with a defined frequency in an array of integers, and it operates efficiently even for large inputs.
+
+Function Prototype:
+c
+Copy code
+int get_minimum_number_with_k_occurences(int n, int arr[], int k);
+Parameters:
+n (int): The number of elements in the array arr. It defines the size of the input array.
+arr[] (int array): The input array of integers where the function will search for numbers. The numbers in the array are assumed to be within a predefined range, which is between 0 and MAX-1.
+k (int): The target frequency, which specifies the number of times a number should occur in the array for it to be considered.
+Returns:
+The function returns the smallest number in the array that occurs exactly K times. If multiple numbers meet the criteria, the smallest one is returned.
+If no number in the array occurs exactly K times, the behavior will depend on how MAX is defined (typically it will return MAX + 1 if no valid number is found, though in practice the problem guarantees at least one number has K occurrences).
+How It Works:
+Step 1: Initialize a Frequency Array
+
+The function uses an auxiliary array called frequency[] to store the count of occurrences for each number in the input array.
+
+The array frequency[] has a size of MAX (the maximum possible value in the input array plus one). For each number in arr, the corresponding index in frequency[] is incremented.
+
+For example, if the number 5 appears in arr, frequency[5] is incremented.
+Time complexity: This step is O(N), where N is the size of the input array (n).
+
+Step 2: Find the Smallest Number with Exactly K Occurrences
+
+After populating the frequency array, the function iterates through all possible numbers (from 0 to MAX-1), checking their corresponding counts in the frequency[] array.
+
+For each number i, if frequency[i] == k, it checks if i is smaller than the currently stored smallest valid number (smallest_number). If so, smallest_number is updated with i.
+
+Time complexity: This step is O(MAX), which is constant in terms of the size of the array but depends on the range of possible values for numbers.
+
+Return the Smallest Number
+
+After the second loop completes, the function returns the smallest number that was found with exactly K occurrences. If no number meets the criteria, smallest_number remains unchanged and a large value (MAX + 1) is returned.
+Time Complexity:
+Overall Time Complexity: O(N + MAX)
+N is the number of elements in the array (size of arr).
+MAX is the range of the possible numbers (which is constant if defined).
+The time complexity is efficient and linear with respect to the size of the input array.
+Space Complexity:
+Space Complexity: O(MAX)
+The function uses an auxiliary array frequency[] of size MAX to store the frequency of each number. This space is constant with respect to the input size n but depends on the predefined MAX.
+Example:
+Consider the following example:
+
+int arr[] = {2, 4, 6, 7, 3, 4, 5, 6, 3, 6};
+int n = 10;
+int k = 2;
+The function will count the occurrences of each number in arr[].
+The number 3 appears 2 times, 4 appears 2 times, and 6 appears 3 times.
+Since we are looking for the smallest number that appears exactly 2 times, the function will return 3.
